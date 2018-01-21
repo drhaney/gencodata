@@ -1,0 +1,12 @@
+# ----------------file "a_few.txt" begins ----------------
+Speed of light in vacuum
+Avogadro constant
+#
+Planck constant
+Boltzmann constant
+#
+Hartree energy
+molar gas constant
+Joule-calorie relationship
+# ----------------file "a_few.txt" ends ------------------
+

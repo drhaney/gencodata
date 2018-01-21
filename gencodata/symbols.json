@@ -1,0 +1,1679 @@
+{
+  "symbols": [
+    {
+      "Quantity ": "{220} lattice spacing of silicon",
+      "Category": "X-ray",
+      "Symbol": "d_220"
+    },
+    {
+      "Quantity ": "alpha particle mass",
+      "Category": "alpha",
+      "Symbol": "m_alpha"
+    },
+    {
+      "Quantity ": "alpha particle mass energy equivalent",
+      "Category": "alpha",
+      "Symbol": "m_alpha_c2"
+    },
+    {
+      "Quantity ": "alpha particle mass energy equivalent in MeV",
+      "Category": "alpha",
+      "Symbol": "m_alpha_c2_MeV"
+    },
+    {
+      "Quantity ": "alpha particle mass in u",
+      "Category": "alpha",
+      "Symbol": "m_alpha_u"
+    },
+    {
+      "Quantity ": "alpha particle molar mass",
+      "Category": "alpha",
+      "Symbol": "M_alpha"
+    },
+    {
+      "Quantity ": "alpha particle-electron mass ratio",
+      "Category": "alpha",
+      "Symbol": "m_alpha_over_m_e"
+    },
+    {
+      "Quantity ": "alpha particle-proton mass ratio",
+      "Category": "alpha",
+      "Symbol": "m_alpha_over_m_P"
+    },
+    {
+      "Quantity ": "Angstrom star",
+      "Category": "X-ray",
+      "Symbol": "W_K_alpha"
+    },
+    {
+      "Quantity ": "atomic mass constant",
+      "Category": "physicochemical",
+      "Symbol": "m_u"
+    },
+    {
+      "Quantity ": "atomic mass constant energy equivalent",
+      "Category": "physicochemical",
+      "Symbol": "m_u_c2"
+    },
+    {
+      "Quantity ": "atomic mass constant energy equivalent in MeV",
+      "Category": "physicochemical",
+      "Symbol": "m_u_c2_in_MeV"
+    },
+    {
+      "Quantity ": "atomic mass unit-electron volt relationship",
+      "Category": "equivalents",
+      "Symbol": "AMU_to_eV"
+    },
+    {
+      "Quantity ": "atomic mass unit-hartree relationship",
+      "Category": "equivalents",
+      "Symbol": "AMU_to_Ha"
+    },
+    {
+      "Quantity ": "atomic mass unit-hertz relationship",
+      "Category": "equivalents",
+      "Symbol": "AMU_to_Hz"
+    },
+    {
+      "Quantity ": "atomic mass unit-inverse meter relationship",
+      "Category": "equivalents",
+      "Symbol": "AMU_to_inv_m"
+    },
+    {
+      "Quantity ": "atomic mass unit-joule relationship",
+      "Category": "equivalents",
+      "Symbol": "AMU_to_J"
+    },
+    {
+      "Quantity ": "atomic mass unit-kelvin relationship",
+      "Category": "equivalents",
+      "Symbol": "AMU_to_K"
+    },
+    {
+      "Quantity ": "atomic mass unit-kilogram relationship",
+      "Category": "equivalents",
+      "Symbol": "AMU_to_kg"
+    },
+    {
+      "Quantity ": "atomic unit of 1st hyperpolarizability",
+      "Category": "atomic units",
+      "Symbol": "AU_1st_hyperpolarizability"
+    },
+    {
+      "Quantity ": "atomic unit of 2nd hyperpolarizability",
+      "Category": "atomic units",
+      "Symbol": "AU_2nd_hyperpolarizability"
+    },
+    {
+      "Quantity ": "atomic unit of action",
+      "Category": "atomic units",
+      "Symbol": "hbar"
+    },
+    {
+      "Quantity ": "atomic unit of charge",
+      "Category": "electromagnetic",
+      "Symbol": "e"
+    },
+    {
+      "Quantity ": "atomic unit of charge density",
+      "Category": "atomic units",
+      "Symbol": "e_over_a_0_3"
+    },
+    {
+      "Quantity ": "atomic unit of current",
+      "Category": "atomic units",
+      "Symbol": "AU_current"
+    },
+    {
+      "Quantity ": "atomic unit of electric dipole mom.",
+      "Category": "atomic units",
+      "Symbol": "ea_0"
+    },
+    {
+      "Quantity ": "atomic unit of electric field",
+      "Category": "atomic units",
+      "Symbol": "AU_electric_field"
+    },
+    {
+      "Quantity ": "atomic unit of electric field gradient",
+      "Category": "atomic units",
+      "Symbol": "AU_electric_field_gradient"
+    },
+    {
+      "Quantity ": "atomic unit of electric polarizability",
+      "Category": "atomic units",
+      "Symbol": "AU_electric_polarizability"
+    },
+    {
+      "Quantity ": "atomic unit of electric potential",
+      "Category": "atomic units",
+      "Symbol": "AU_electric_potential"
+    },
+    {
+      "Quantity ": "atomic unit of electric quadrupole mom.",
+      "Category": "atomic units",
+      "Symbol": "AU_electric_quadrupole_mom"
+    },
+    {
+      "Quantity ": "atomic unit of energy",
+      "Category": "atomic units",
+      "Symbol": "AU_energy"
+    },
+    {
+      "Quantity ": "atomic unit of force",
+      "Category": "atomic units",
+      "Symbol": "AU_force"
+    },
+    {
+      "Quantity ": "atomic unit of length",
+      "Category": "atomic units",
+      "Symbol": "AU_length"
+    },
+    {
+      "Quantity ": "atomic unit of mag. dipole mom.",
+      "Category": "atomic units",
+      "Symbol": "AU_mag_dipole_mom"
+    },
+    {
+      "Quantity ": "atomic unit of mag. flux density",
+      "Category": "atomic units",
+      "Symbol": "AU_mag_flux_density"
+    },
+    {
+      "Quantity ": "atomic unit of magnetizability",
+      "Category": "atomic units",
+      "Symbol": "AU_magnetizability"
+    },
+    {
+      "Quantity ": "atomic unit of mass",
+      "Category": "atomic units",
+      "Symbol": "AU_mass"
+    },
+    {
+      "Quantity ": "atomic unit of mom.um",
+      "Category": "atomic units",
+      "Symbol": "AU_momum"
+    },
+    {
+      "Quantity ": "atomic unit of permittivity",
+      "Category": "atomic units",
+      "Symbol": "AU_permittivity"
+    },
+    {
+      "Quantity ": "atomic unit of time",
+      "Category": "atomic units",
+      "Symbol": "AU_time"
+    },
+    {
+      "Quantity ": "atomic unit of velocity",
+      "Category": "atomic units",
+      "Symbol": "AU_velocity"
+    },
+    {
+      "Quantity ": "Avogadro constant",
+      "Category": "physicochemical",
+      "Symbol": "N_A"
+    },
+    {
+      "Quantity ": "Bohr magneton",
+      "Category": "electromagnetic",
+      "Symbol": "mu_B"
+    },
+    {
+      "Quantity ": "Bohr magneton in eV/T",
+      "Category": "electromagnetic",
+      "Symbol": "mu_B_eV"
+    },
+    {
+      "Quantity ": "Bohr magneton in Hz/T",
+      "Category": "electromagnetic",
+      "Symbol": "mu_B_over_h"
+    },
+    {
+      "Quantity ": "Bohr magneton in inverse meters per tesla",
+      "Category": "electromagnetic",
+      "Symbol": "mu_B_over_hc"
+    },
+    {
+      "Quantity ": "Bohr magneton in K/T",
+      "Category": "electromagnetic",
+      "Symbol": "mu_B_over_k"
+    },
+    {
+      "Quantity ": "Bohr radius",
+      "Category": "atomic",
+      "Symbol": "a0"
+    },
+    {
+      "Quantity ": "Boltzmann constant",
+      "Category": "physicochemical",
+      "Symbol": "k_B"
+    },
+    {
+      "Quantity ": "Boltzmann constant in eV/K",
+      "Category": "physicochemical",
+      "Symbol": "k_B_in_eV"
+    },
+    {
+      "Quantity ": "Boltzmann constant in Hz/K",
+      "Category": "physicochemical",
+      "Symbol": "k_B_over_h"
+    },
+    {
+      "Quantity ": "Boltzmann constant in inverse meters per kelvin",
+      "Category": "physicochemical",
+      "Symbol": "k_B_over_hc"
+    },
+    {
+      "Quantity ": "characteristic impedance of vacuum",
+      "Category": "universal",
+      "Symbol": "Z_0"
+    },
+    {
+      "Quantity ": "classical electron radius",
+      "Category": "electron",
+      "Symbol": "r_e"
+    },
+    {
+      "Quantity ": "Compton wavelength",
+      "Category": "electron",
+      "Symbol": "lambda_c"
+    },
+    {
+      "Quantity ": "Compton wavelength over 2 pi",
+      "Category": "electron",
+      "Symbol": "lambdabar_c"
+    },
+    {
+      "Quantity ": "conductance quantum",
+      "Category": "electromagnetic",
+      "Symbol": "G0"
+    },
+    {
+      "Quantity ": "conventional value of Josephson constant",
+      "Category": "electromagnetic",
+      "Symbol": "K_J_old"
+    },
+    {
+      "Quantity ": "conventional value of von Klitzing constant",
+      "Category": "electromagnetic",
+      "Symbol": "R_K_old"
+    },
+    {
+      "Quantity ": "Cu x unit",
+      "Category": "X-ray",
+      "Symbol": "Co_K_alpha"
+    },
+    {
+      "Quantity ": "deuteron g factor",
+      "Category": "deuteron",
+      "Symbol": "g_d"
+    },
+    {
+      "Quantity ": "deuteron mag. mom.",
+      "Category": "deuteron",
+      "Symbol": "mu_d"
+    },
+    {
+      "Quantity ": "deuteron mag. mom. to Bohr magneton ratio",
+      "Category": "deuteron",
+      "Symbol": "mu_d_over_mu_B"
+    },
+    {
+      "Quantity ": "deuteron mag. mom. to nuclear magneton ratio",
+      "Category": "deuteron",
+      "Symbol": "mu_d_over_mu_N"
+    },
+    {
+      "Quantity ": "deuteron mass",
+      "Category": "deuteron",
+      "Symbol": "m_d"
+    },
+    {
+      "Quantity ": "deuteron mass energy equivalent",
+      "Category": "deuteron",
+      "Symbol": "m_d_c2"
+    },
+    {
+      "Quantity ": "deuteron mass energy equivalent in MeV",
+      "Category": "deuteron",
+      "Symbol": "m_d_c2_in_MeV"
+    },
+    {
+      "Quantity ": "deuteron mass in u",
+      "Category": "deuteron",
+      "Symbol": "m_d_in_u"
+    },
+    {
+      "Quantity ": "deuteron molar mass",
+      "Category": "deuteron",
+      "Symbol": "M_d"
+    },
+    {
+      "Quantity ": "deuteron rms charge radius",
+      "Category": "deuteron",
+      "Symbol": "r_d"
+    },
+    {
+      "Quantity ": "deuteron-electron mag. mom. ratio",
+      "Category": "deuteron",
+      "Symbol": "mu_d_over_m_e"
+    },
+    {
+      "Quantity ": "deuteron-electron mass ratio",
+      "Category": "deuteron",
+      "Symbol": "m_d_over_m_e"
+    },
+    {
+      "Quantity ": "deuteron-neutron mag. mom. ratio",
+      "Category": "deuteron",
+      "Symbol": "mu_d_over_m_n"
+    },
+    {
+      "Quantity ": "deuteron-proton mag. mom. ratio",
+      "Category": "deuteron",
+      "Symbol": "mu_d_over_m_P"
+    },
+    {
+      "Quantity ": "deuteron-proton mass ratio",
+      "Category": "deuteron",
+      "Symbol": "m_d_over_m_P"
+    },
+    {
+      "Quantity ": "electric constant",
+      "Category": "universal",
+      "Symbol": "mu_0"
+    },
+    {
+      "Quantity ": "electron charge to mass quotient",
+      "Category": "electron",
+      "Symbol": "e_over_m_e"
+    },
+    {
+      "Quantity ": "electron g factor",
+      "Category": "electron",
+      "Symbol": "e_g"
+    },
+    {
+      "Quantity ": "electron gyromag. ratio",
+      "Category": "electron",
+      "Symbol": "gamma_e"
+    },
+    {
+      "Quantity ": "electron gyromag. ratio over 2 pi",
+      "Category": "electron",
+      "Symbol": "gammabar_e"
+    },
+    {
+      "Quantity ": "electron mag. mom.",
+      "Category": "electron",
+      "Symbol": "mu_e"
+    },
+    {
+      "Quantity ": "electron mag. mom. anomaly",
+      "Category": "electron",
+      "Symbol": "a_e"
+    },
+    {
+      "Quantity ": "electron mag. mom. to Bohr magneton ratio",
+      "Category": "electron",
+      "Symbol": "mu_e_over_mu_B"
+    },
+    {
+      "Quantity ": "electron mag. mom. to nuclear magneton ratio",
+      "Category": "electron",
+      "Symbol": "mu_e_over_mu_N"
+    },
+    {
+      "Quantity ": "electron mass",
+      "Category": "electron",
+      "Symbol": "m_e"
+    },
+    {
+      "Quantity ": "electron mass energy equivalent",
+      "Category": "electron",
+      "Symbol": "m_e_c2"
+    },
+    {
+      "Quantity ": "electron mass energy equivalent in MeV",
+      "Category": "electron",
+      "Symbol": "m_e_c2_in_MeV"
+    },
+    {
+      "Quantity ": "electron mass in u",
+      "Category": "electron",
+      "Symbol": "m_e_in_u"
+    },
+    {
+      "Quantity ": "electron molar mass",
+      "Category": "electron",
+      "Symbol": "M_e"
+    },
+    {
+      "Quantity ": "electron to alpha particle mass ratio",
+      "Category": "electron",
+      "Symbol": "mu_e_over_mu_a"
+    },
+    {
+      "Quantity ": "electron to shielded helion mag. mom. ratio",
+      "Category": "electron",
+      "Symbol": "mu_e_over_mu_prime_h"
+    },
+    {
+      "Quantity ": "electron to shielded proton mag. mom. ratio",
+      "Category": "electron",
+      "Symbol": "mu_e_over_mu_prime_P"
+    },
+    {
+      "Quantity ": "electron volt",
+      "Category": "electromagnetic",
+      "Symbol": "eV"
+    },
+    {
+      "Quantity ": "electron volt-atomic mass unit relationship",
+      "Category": "equivalents",
+      "Symbol": "eV_to_AMU"
+    },
+    {
+      "Quantity ": "electron volt-hartree relationship",
+      "Category": "equivalents",
+      "Symbol": "eV_to_Ha"
+    },
+    {
+      "Quantity ": "electron volt-hertz relationship",
+      "Category": "equivalents",
+      "Symbol": "eV_to_Hz"
+    },
+    {
+      "Quantity ": "electron volt-inverse meter relationship",
+      "Category": "equivalents",
+      "Symbol": "eV_to_inv_m"
+    },
+    {
+      "Quantity ": "electron volt-joule relationship",
+      "Category": "equivalents",
+      "Symbol": "eV_to_J"
+    },
+    {
+      "Quantity ": "electron volt-kelvin relationship",
+      "Category": "equivalents",
+      "Symbol": "eV_to_K"
+    },
+    {
+      "Quantity ": "electron volt-kilogram relationship",
+      "Category": "equivalents",
+      "Symbol": "eV_to_kg"
+    },
+    {
+      "Quantity ": "electron-deuteron mag. mom. ratio",
+      "Category": "electron",
+      "Symbol": "mu_e_over_mu_prime_d"
+    },
+    {
+      "Quantity ": "electron-deuteron mass ratio",
+      "Category": "electron",
+      "Symbol": "m_e_over_m_d"
+    },
+    {
+      "Quantity ": "electron-helion mass ratio",
+      "Category": "electron",
+      "Symbol": "m_e_over_m_h"
+    },
+    {
+      "Quantity ": "electron-muon mag. mom. ratio",
+      "Category": "electron",
+      "Symbol": "mu_e_over_mu_u"
+    },
+    {
+      "Quantity ": "electron-muon mass ratio",
+      "Category": "electron",
+      "Symbol": "m_e_over_m_u"
+    },
+    {
+      "Quantity ": "electron-neutron mag. mom. ratio",
+      "Category": "electron",
+      "Symbol": "mu_e_over_mu_n"
+    },
+    {
+      "Quantity ": "electron-neutron mass ratio",
+      "Category": "electron",
+      "Symbol": "m_e_over_m_n"
+    },
+    {
+      "Quantity ": "electron-proton mag. mom. ratio",
+      "Category": "electron",
+      "Symbol": "mu_e_over_mu_P"
+    },
+    {
+      "Quantity ": "electron-proton mass ratio",
+      "Category": "electron",
+      "Symbol": "m_e_over_m_P"
+    },
+    {
+      "Quantity ": "electron-tau mass ratio",
+      "Category": "electron",
+      "Symbol": "m_e_over_m_tau"
+    },
+    {
+      "Quantity ": "electron-triton mass ratio",
+      "Category": "electron",
+      "Symbol": "m_e_over_m_t"
+    },
+    {
+      "Quantity ": "elementary charge",
+      "Category": "electromagnetic",
+      "Symbol": "e"
+    },
+    {
+      "Quantity ": "elementary charge over h",
+      "Category": "electromagnetic",
+      "Symbol": "e_over_h"
+    },
+    {
+      "Quantity ": "Faraday constant",
+      "Category": "physicochemical",
+      "Symbol": "F"
+    },
+    {
+      "Quantity ": "Faraday constant for conventional electric current",
+      "Category": "physicochemical",
+      "Symbol": "F_star"
+    },
+    {
+      "Quantity ": "Fermi coupling constant",
+      "Category": "electroweak",
+      "Symbol": "G_F_over_hbarc3"
+    },
+    {
+      "Quantity ": "fine-structure constant",
+      "Category": "atomic",
+      "Symbol": "alpha"
+    },
+    {
+      "Quantity ": "first radiation constant",
+      "Category": "physicochemical",
+      "Symbol": "c_1"
+    },
+    {
+      "Quantity ": "first radiation constant for spectral radiance",
+      "Category": "physicochemical",
+      "Symbol": "c_1L"
+    },
+    {
+      "Quantity ": "Hartree energy",
+      "Category": "atomic",
+      "Symbol": "E_h"
+    },
+    {
+      "Quantity ": "Hartree energy in eV",
+      "Category": "atomic",
+      "Symbol": "E_h_eV"
+    },
+    {
+      "Quantity ": "hartree-atomic mass unit relationship",
+      "Category": "equivalents",
+      "Symbol": "Ha_to_AMU"
+    },
+    {
+      "Quantity ": "hartree-electron volt relationship",
+      "Category": "equivalents",
+      "Symbol": "Ha_to_eV"
+    },
+    {
+      "Quantity ": "hartree-hertz relationship",
+      "Category": "equivalents",
+      "Symbol": "Ha_to_Hz"
+    },
+    {
+      "Quantity ": "hartree-inverse meter relationship",
+      "Category": "equivalents",
+      "Symbol": "Ha_to_inv_m"
+    },
+    {
+      "Quantity ": "hartree-joule relationship",
+      "Category": "equivalents",
+      "Symbol": "Ha_to_J"
+    },
+    {
+      "Quantity ": "hartree-kelvin relationship",
+      "Category": "equivalents",
+      "Symbol": "Ha_to_K"
+    },
+    {
+      "Quantity ": "hartree-kilogram relationship",
+      "Category": "equivalents",
+      "Symbol": "Ha_to_kg"
+    },
+    {
+      "Quantity ": "helion g factor",
+      "Category": "helion",
+      "Symbol": "g_h"
+    },
+    {
+      "Quantity ": "helion mag. mom.",
+      "Category": "helion",
+      "Symbol": "mu_h"
+    },
+    {
+      "Quantity ": "helion mag. mom. to Bohr magneton ratio",
+      "Category": "helion",
+      "Symbol": "mu_h_over_mu_B"
+    },
+    {
+      "Quantity ": "helion mag. mom. to nuclear magneton ratio",
+      "Category": "helion",
+      "Symbol": "mu_h_over_mu_N"
+    },
+    {
+      "Quantity ": "helion mass",
+      "Category": "helion",
+      "Symbol": "m_h"
+    },
+    {
+      "Quantity ": "helion mass energy equivalent",
+      "Category": "helion",
+      "Symbol": "m_h_c2"
+    },
+    {
+      "Quantity ": "helion mass energy equivalent in MeV",
+      "Category": "helion",
+      "Symbol": "m_h_c2_in_MeV"
+    },
+    {
+      "Quantity ": "helion mass in u",
+      "Category": "helion",
+      "Symbol": "m_h_in_u"
+    },
+    {
+      "Quantity ": "helion molar mass",
+      "Category": "helion",
+      "Symbol": "M_h"
+    },
+    {
+      "Quantity ": "helion-electron mass ratio",
+      "Category": "helion",
+      "Symbol": "m_h_over_m_e"
+    },
+    {
+      "Quantity ": "helion-proton mass ratio",
+      "Category": "helion",
+      "Symbol": "m_h_over_m_p"
+    },
+    {
+      "Quantity ": "hertz-atomic mass unit relationship",
+      "Category": "equivalents",
+      "Symbol": "Hz_to_AMU"
+    },
+    {
+      "Quantity ": "hertz-electron volt relationship",
+      "Category": "equivalents",
+      "Symbol": "Hz_to_eV"
+    },
+    {
+      "Quantity ": "hertz-hartree relationship",
+      "Category": "equivalents",
+      "Symbol": "Hz_to_Ha"
+    },
+    {
+      "Quantity ": "hertz-inverse meter relationship",
+      "Category": "equivalents",
+      "Symbol": "Hz_to_inv_m"
+    },
+    {
+      "Quantity ": "hertz-joule relationship",
+      "Category": "equivalents",
+      "Symbol": "Hz_to_J"
+    },
+    {
+      "Quantity ": "hertz-kelvin relationship",
+      "Category": "equivalents",
+      "Symbol": "Hz_to_K"
+    },
+    {
+      "Quantity ": "hertz-kilogram relationship",
+      "Category": "equivalents",
+      "Symbol": "Hz_to_kg"
+    },
+    {
+      "Quantity ": "inverse fine-structure constant",
+      "Category": "atomic",
+      "Symbol": "alpha_inv"
+    },
+    {
+      "Quantity ": "inverse meter-atomic mass unit relationship",
+      "Category": "equivalents",
+      "Symbol": "inv_m_to_AMU"
+    },
+    {
+      "Quantity ": "inverse meter-electron volt relationship",
+      "Category": "equivalents",
+      "Symbol": "inv_m_to_eV"
+    },
+    {
+      "Quantity ": "inverse meter-hartree relationship",
+      "Category": "equivalents",
+      "Symbol": "inv_m_to_Ha"
+    },
+    {
+      "Quantity ": "inverse meter-hertz relationship",
+      "Category": "equivalents",
+      "Symbol": "inv_m_to_Hz"
+    },
+    {
+      "Quantity ": "inverse meter-joule relationship",
+      "Category": "equivalents",
+      "Symbol": "inv_m_to_J"
+    },
+    {
+      "Quantity ": "inverse meter-kelvin relationship",
+      "Category": "equivalents",
+      "Symbol": "inv_m_to_K"
+    },
+    {
+      "Quantity ": "inverse meter-kilogram relationship",
+      "Category": "equivalents",
+      "Symbol": "inv_m_to_kg"
+    },
+    {
+      "Quantity ": "inverse of conductance quantum",
+      "Category": "electromagnetic",
+      "Symbol": "G0_inv"
+    },
+    {
+      "Quantity ": "Josephson constant",
+      "Category": "electromagnetic",
+      "Symbol": "K_J"
+    },
+    {
+      "Quantity ": "joule-atomic mass unit relationship",
+      "Category": "equivalents",
+      "Symbol": "J_to_AMU"
+    },
+    {
+      "Quantity ": "joule-electron volt relationship",
+      "Category": "equivalents",
+      "Symbol": "J_to_eV"
+    },
+    {
+      "Quantity ": "joule-hartree relationship",
+      "Category": "equivalents",
+      "Symbol": "J_to_Ha"
+    },
+    {
+      "Quantity ": "joule-hertz relationship",
+      "Category": "equivalents",
+      "Symbol": "J_to_Hz"
+    },
+    {
+      "Quantity ": "joule-inverse meter relationship",
+      "Category": "equivalents",
+      "Symbol": "J_to_inv_m"
+    },
+    {
+      "Quantity ": "joule-kelvin relationship",
+      "Category": "equivalents",
+      "Symbol": "J_to_K"
+    },
+    {
+      "Quantity ": "joule-kilogram relationship",
+      "Category": "equivalents",
+      "Symbol": "J_to_kg"
+    },
+    {
+      "Quantity ": "kelvin-atomic mass unit relationship",
+      "Category": "equivalents",
+      "Symbol": "K_to_AMU"
+    },
+    {
+      "Quantity ": "kelvin-electron volt relationship",
+      "Category": "equivalents",
+      "Symbol": "K_to_eV"
+    },
+    {
+      "Quantity ": "kelvin-hartree relationship",
+      "Category": "equivalents",
+      "Symbol": "K_to_Ha"
+    },
+    {
+      "Quantity ": "kelvin-hertz relationship",
+      "Category": "equivalents",
+      "Symbol": "K_to_Hz"
+    },
+    {
+      "Quantity ": "kelvin-inverse meter relationship",
+      "Category": "equivalents",
+      "Symbol": "K_to_inv_m"
+    },
+    {
+      "Quantity ": "kelvin-joule relationship",
+      "Category": "equivalents",
+      "Symbol": "K_to_J"
+    },
+    {
+      "Quantity ": "kelvin-kilogram relationship",
+      "Category": "equivalents",
+      "Symbol": "K_to_kg"
+    },
+    {
+      "Quantity ": "kilogram-atomic mass unit relationship",
+      "Category": "equivalents",
+      "Symbol": "kg_to_AMU"
+    },
+    {
+      "Quantity ": "kilogram-electron volt relationship",
+      "Category": "equivalents",
+      "Symbol": "kg_to_eV"
+    },
+    {
+      "Quantity ": "kilogram-hartree relationship",
+      "Category": "equivalents",
+      "Symbol": "kg_to_Ha"
+    },
+    {
+      "Quantity ": "kilogram-hertz relationship",
+      "Category": "equivalents",
+      "Symbol": "kg_to_Hz"
+    },
+    {
+      "Quantity ": "kilogram-inverse meter relationship",
+      "Category": "equivalents",
+      "Symbol": "kg_to_inv_m"
+    },
+    {
+      "Quantity ": "kilogram-joule relationship",
+      "Category": "equivalents",
+      "Symbol": "kg_to_J"
+    },
+    {
+      "Quantity ": "kilogram-kelvin relationship",
+      "Category": "equivalents",
+      "Symbol": "kg_to_K"
+    },
+    {
+      "Quantity ": "lattice parameter of silicon",
+      "Category": "X-ray",
+      "Symbol": "a"
+    },
+    {
+      "Quantity ": "Loschmidt constant (273.15 K, 100 kPa)",
+      "Category": "physicochemical",
+      "Symbol": "n_0"
+    },
+    {
+      "Quantity ": "Loschmidt constant (273.15 K, 101.325 kPa)",
+      "Category": "physicochemical",
+      "Symbol": "n_0_101kPa"
+    },
+    {
+      "Quantity ": "mag. constant",
+      "Category": "universal",
+      "Symbol": "epsilon_0"
+    },
+    {
+      "Quantity ": "mag. flux quantum",
+      "Category": "electromagnetic",
+      "Symbol": "Phi0"
+    },
+    {
+      "Quantity ": "Mo x unit",
+      "Category": "X-ray",
+      "Symbol": "Mo_K_alpha"
+    },
+    {
+      "Quantity ": "molar gas constant",
+      "Category": "physicochemical",
+      "Symbol": "Rgas"
+    },
+    {
+      "Quantity ": "molar mass constant",
+      "Category": "equivalents",
+      "Symbol": "M_u"
+    },
+    {
+      "Quantity ": "molar mass of carbon-12",
+      "Category": "equivalents",
+      "Symbol": "M(12_C)"
+    },
+    {
+      "Quantity ": "molar Planck constant",
+      "Category": "universal",
+      "Symbol": "h_N"
+    },
+    {
+      "Quantity ": "molar Planck constant times c",
+      "Category": "universal",
+      "Symbol": "h_N_c"
+    },
+    {
+      "Quantity ": "molar volume of ideal gas (273.15 K, 100 kPa)",
+      "Category": "physicochemical",
+      "Symbol": "V_m"
+    },
+    {
+      "Quantity ": "molar volume of ideal gas (273.15 K, 101.325 kPa)",
+      "Category": "physicochemical",
+      "Symbol": "V_m_101kPa"
+    },
+    {
+      "Quantity ": "molar volume of silicon",
+      "Category": "equivalents",
+      "Symbol": "V_m_Si"
+    },
+    {
+      "Quantity ": "muon Compton wavelength",
+      "Category": "muon",
+      "Symbol": "lambda_C"
+    },
+    {
+      "Quantity ": "muon Compton wavelength over 2 pi",
+      "Category": "muon",
+      "Symbol": "lambda_C_over_2pi"
+    },
+    {
+      "Quantity ": "muon g factor",
+      "Category": "muon",
+      "Symbol": "g_mu"
+    },
+    {
+      "Quantity ": "muon mag. mom.",
+      "Category": "muon",
+      "Symbol": "mu_mu"
+    },
+    {
+      "Quantity ": "muon mag. mom. anomaly",
+      "Category": "muon",
+      "Symbol": "a_mu"
+    },
+    {
+      "Quantity ": "muon mag. mom. to Bohr magneton ratio",
+      "Category": "muon",
+      "Symbol": "mu_mu_over_mu_B"
+    },
+    {
+      "Quantity ": "muon mag. mom. to nuclear magneton ratio",
+      "Category": "muon",
+      "Symbol": "mu_mu_over_mu_N"
+    },
+    {
+      "Quantity ": "muon mass",
+      "Category": "muon",
+      "Symbol": "m_mu"
+    },
+    {
+      "Quantity ": "muon mass energy equivalent",
+      "Category": "muon",
+      "Symbol": "m_mu_c2"
+    },
+    {
+      "Quantity ": "muon mass energy equivalent in MeV",
+      "Category": "muon",
+      "Symbol": "m_mu_c2_in_MeV"
+    },
+    {
+      "Quantity ": "muon mass in u",
+      "Category": "muon",
+      "Symbol": "m_mu_in_u"
+    },
+    {
+      "Quantity ": "muon molar mass",
+      "Category": "muon",
+      "Symbol": "M_mu"
+    },
+    {
+      "Quantity ": "muon-electron mass ratio",
+      "Category": "muon",
+      "Symbol": "m_mu_over_m_e"
+    },
+    {
+      "Quantity ": "muon-neutron mass ratio",
+      "Category": "muon",
+      "Symbol": "m_mu_over_m_n"
+    },
+    {
+      "Quantity ": "muon-proton mag. mom. ratio",
+      "Category": "muon",
+      "Symbol": "mu_mu_over_mu_P"
+    },
+    {
+      "Quantity ": "muon-proton mass ratio",
+      "Category": "muon",
+      "Symbol": "m_mu_over_m_P"
+    },
+    {
+      "Quantity ": "muon-tau mass ratio",
+      "Category": "muon",
+      "Symbol": "m_mu_over_m_tau"
+    },
+    {
+      "Quantity ": "natural unit of action",
+      "Category": "natural",
+      "Symbol": "nu_action"
+    },
+    {
+      "Quantity ": "natural unit of action in eV s",
+      "Category": "natural",
+      "Symbol": "nu_action_in_eV_s"
+    },
+    {
+      "Quantity ": "natural unit of energy",
+      "Category": "natural",
+      "Symbol": "nu_energy"
+    },
+    {
+      "Quantity ": "natural unit of energy in MeV",
+      "Category": "natural",
+      "Symbol": "nu_energy_in_MeV"
+    },
+    {
+      "Quantity ": "natural unit of length",
+      "Category": "natural",
+      "Symbol": "nu_length"
+    },
+    {
+      "Quantity ": "natural unit of mass",
+      "Category": "natural",
+      "Symbol": "nu_mass"
+    },
+    {
+      "Quantity ": "natural unit of mom.um",
+      "Category": "natural",
+      "Symbol": "nu_mom_um"
+    },
+    {
+      "Quantity ": "natural unit of mom.um in MeV/c",
+      "Category": "natural",
+      "Symbol": "nu_mom_um_in_MeV_c"
+    },
+    {
+      "Quantity ": "natural unit of time",
+      "Category": "natural",
+      "Symbol": "nu_time"
+    },
+    {
+      "Quantity ": "natural unit of velocity",
+      "Category": "natural",
+      "Symbol": "nu_velocity"
+    },
+    {
+      "Quantity ": "neutron Compton wavelength",
+      "Category": "neutron",
+      "Symbol": "lambda_C_n"
+    },
+    {
+      "Quantity ": "neutron Compton wavelength over 2 pi",
+      "Category": "neutron",
+      "Symbol": "lambda_C_n_over_2pi"
+    },
+    {
+      "Quantity ": "neutron g factor",
+      "Category": "neutron",
+      "Symbol": "g_n"
+    },
+    {
+      "Quantity ": "neutron gyromag. ratio",
+      "Category": "neutron",
+      "Symbol": "gamma_n"
+    },
+    {
+      "Quantity ": "neutron gyromag. ratio over 2 pi",
+      "Category": "neutron",
+      "Symbol": "gamma_n_over_2pi"
+    },
+    {
+      "Quantity ": "neutron mag. mom.",
+      "Category": "neutron",
+      "Symbol": "mu_n"
+    },
+    {
+      "Quantity ": "neutron mag. mom. to Bohr magneton ratio",
+      "Category": "neutron",
+      "Symbol": "mu_n_over_mu_B"
+    },
+    {
+      "Quantity ": "neutron mag. mom. to nuclear magneton ratio",
+      "Category": "neutron",
+      "Symbol": "mu_n_over_mu_N"
+    },
+    {
+      "Quantity ": "neutron mass",
+      "Category": "neutron",
+      "Symbol": "m_n"
+    },
+    {
+      "Quantity ": "neutron mass energy equivalent",
+      "Category": "neutron",
+      "Symbol": "m_n_c2"
+    },
+    {
+      "Quantity ": "neutron mass energy equivalent in MeV",
+      "Category": "neutron",
+      "Symbol": "m_n_c2_in_MeV"
+    },
+    {
+      "Quantity ": "neutron mass in u",
+      "Category": "neutron",
+      "Symbol": "m_n_in_u"
+    },
+    {
+      "Quantity ": "neutron molar mass",
+      "Category": "neutron",
+      "Symbol": "M_n"
+    },
+    {
+      "Quantity ": "neutron to shielded proton mag. mom. ratio",
+      "Category": "neutron",
+      "Symbol": "mu_n_over_mu_prime_P"
+    },
+    {
+      "Quantity ": "neutron-electron mag. mom. ratio",
+      "Category": "neutron",
+      "Symbol": "mu_n_over_mu_e"
+    },
+    {
+      "Quantity ": "neutron-electron mass ratio",
+      "Category": "neutron",
+      "Symbol": "m_n_over_m_e"
+    },
+    {
+      "Quantity ": "neutron-muon mass ratio",
+      "Category": "neutron",
+      "Symbol": "m_n_over_m_mu"
+    },
+    {
+      "Quantity ": "neutron-proton mag. mom. ratio",
+      "Category": "neutron",
+      "Symbol": "mu_n_over_mu_P"
+    },
+    {
+      "Quantity ": "neutron-proton mass difference",
+      "Category": "neutron",
+      "Symbol": "m_n_diff_m_P"
+    },
+    {
+      "Quantity ": "neutron-proton mass difference energy equivalent",
+      "Category": "neutron",
+      "Symbol": "m_n_diff_m_P_c2"
+    },
+    {
+      "Quantity ": "neutron-proton mass difference energy equivalent in MeV",
+      "Category": "neutron",
+      "Symbol": "m_n_diff_m_P_c2_in_MeV"
+    },
+    {
+      "Quantity ": "neutron-proton mass difference in u",
+      "Category": "neutron",
+      "Symbol": "m_n_diff_m_P_in_u"
+    },
+    {
+      "Quantity ": "neutron-proton mass ratio",
+      "Category": "neutron",
+      "Symbol": "m_n_over_m_P"
+    },
+    {
+      "Quantity ": "neutron-tau mass ratio",
+      "Category": "neutron",
+      "Symbol": "m_n_over_m_tau"
+    },
+    {
+      "Quantity ": "Newtonian constant of gravitation",
+      "Category": "universal",
+      "Symbol": "G"
+    },
+    {
+      "Quantity ": "Newtonian constant of gravitation over h-bar c",
+      "Category": "universal",
+      "Symbol": "G_hbar_over_c"
+    },
+    {
+      "Quantity ": "nuclear magneton",
+      "Category": "electromagnetic",
+      "Symbol": "mu_N"
+    },
+    {
+      "Quantity ": "nuclear magneton in eV/T",
+      "Category": "electromagnetic",
+      "Symbol": "mu_N_eV"
+    },
+    {
+      "Quantity ": "nuclear magneton in inverse meters per tesla",
+      "Category": "electromagnetic",
+      "Symbol": "mu_N_over_h"
+    },
+    {
+      "Quantity ": "nuclear magneton in K/T",
+      "Category": "electromagnetic",
+      "Symbol": "mu_N_over_hc"
+    },
+    {
+      "Quantity ": "nuclear magneton in MHz/T",
+      "Category": "electromagnetic",
+      "Symbol": "mu_N_over_k"
+    },
+    {
+      "Quantity ": "Planck constant",
+      "Category": "universal",
+      "Symbol": "h"
+    },
+    {
+      "Quantity ": "Planck constant in eV s",
+      "Category": "universal",
+      "Symbol": "h_eV"
+    },
+    {
+      "Quantity ": "Planck constant over 2 pi",
+      "Category": "universal",
+      "Symbol": "hbar"
+    },
+    {
+      "Quantity ": "Planck constant over 2 pi in eV s",
+      "Category": "universal",
+      "Symbol": "hbar_eV"
+    },
+    {
+      "Quantity ": "Planck constant over 2 pi times c in MeV fm",
+      "Category": "universal",
+      "Symbol": "hbar_c"
+    },
+    {
+      "Quantity ": "Planck length",
+      "Category": "universal",
+      "Symbol": "l_P"
+    },
+    {
+      "Quantity ": "Planck mass",
+      "Category": "universal",
+      "Symbol": "m_P"
+    },
+    {
+      "Quantity ": "Planck mass energy equivalent in GeV",
+      "Category": "universal",
+      "Symbol": "m_P_c2"
+    },
+    {
+      "Quantity ": "Planck temperature",
+      "Category": "universal",
+      "Symbol": "T_P"
+    },
+    {
+      "Quantity ": "Planck time",
+      "Category": "universal",
+      "Symbol": "tP"
+    },
+    {
+      "Quantity ": "proton charge to mass quotient",
+      "Category": "proton",
+      "Symbol": "e_over_m_P"
+    },
+    {
+      "Quantity ": "proton Compton wavelength",
+      "Category": "proton",
+      "Symbol": "lambda_C_P"
+    },
+    {
+      "Quantity ": "proton Compton wavelength over 2 pi",
+      "Category": "proton",
+      "Symbol": "lambda_C_P_over_2pi"
+    },
+    {
+      "Quantity ": "proton g factor",
+      "Category": "proton",
+      "Symbol": "g_P"
+    },
+    {
+      "Quantity ": "proton gyromag. ratio",
+      "Category": "proton",
+      "Symbol": "lambda_P"
+    },
+    {
+      "Quantity ": "proton gyromag. ratio over 2 pi",
+      "Category": "proton",
+      "Symbol": "lambda_P_over_2pi"
+    },
+    {
+      "Quantity ": "proton mag. mom.",
+      "Category": "proton",
+      "Symbol": "mu_P"
+    },
+    {
+      "Quantity ": "proton mag. mom. to Bohr magneton ratio",
+      "Category": "proton",
+      "Symbol": "mu_P_over_mu_B"
+    },
+    {
+      "Quantity ": "proton mag. mom. to nuclear magneton ratio",
+      "Category": "proton",
+      "Symbol": "mu_P_over_mu_N"
+    },
+    {
+      "Quantity ": "proton mag. shielding correction",
+      "Category": "proton",
+      "Symbol": "sigma_prime_P"
+    },
+    {
+      "Quantity ": "proton mass",
+      "Category": "proton",
+      "Symbol": "m_P"
+    },
+    {
+      "Quantity ": "proton mass energy equivalent",
+      "Category": "proton",
+      "Symbol": "m_P_c2"
+    },
+    {
+      "Quantity ": "proton mass energy equivalent in MeV",
+      "Category": "proton",
+      "Symbol": "m_P_c2_in_MeV"
+    },
+    {
+      "Quantity ": "proton mass in u",
+      "Category": "proton",
+      "Symbol": "m_P_in_u"
+    },
+    {
+      "Quantity ": "proton molar mass",
+      "Category": "proton",
+      "Symbol": "M_P"
+    },
+    {
+      "Quantity ": "proton rms charge radius",
+      "Category": "proton",
+      "Symbol": "r_P"
+    },
+    {
+      "Quantity ": "proton-electron mass ratio",
+      "Category": "proton",
+      "Symbol": "m_P_over_m_e"
+    },
+    {
+      "Quantity ": "proton-muon mass ratio",
+      "Category": "proton",
+      "Symbol": "m_P_over_m_mu"
+    },
+    {
+      "Quantity ": "proton-neutron mag. mom. ratio",
+      "Category": "proton",
+      "Symbol": "mu_P_over_mu_n"
+    },
+    {
+      "Quantity ": "proton-neutron mass ratio",
+      "Category": "proton",
+      "Symbol": "m_P_over_m_n"
+    },
+    {
+      "Quantity ": "proton-tau mass ratio",
+      "Category": "proton",
+      "Symbol": "m_P_over_m_tau"
+    },
+    {
+      "Quantity ": "quantum of circulation",
+      "Category": "universal",
+      "Symbol": "h_over_m_e"
+    },
+    {
+      "Quantity ": "quantum of circulation times 2",
+      "Category": "universal",
+      "Symbol": "h_over_2m_e"
+    },
+    {
+      "Quantity ": "Rydberg constant",
+      "Category": "atomic",
+      "Symbol": "Rinf"
+    },
+    {
+      "Quantity ": "Rydberg constant times c in Hz",
+      "Category": "atomic",
+      "Symbol": "Rinf_Hz"
+    },
+    {
+      "Quantity ": "Rydberg constant times hc in eV",
+      "Category": "atomic",
+      "Symbol": "Rinf_eV"
+    },
+    {
+      "Quantity ": "Rydberg constant times hc in J",
+      "Category": "atomic",
+      "Symbol": "Rinf_J"
+    },
+    {
+      "Quantity ": "Sackur-Tetrode constant (1 K, 100 kPa)",
+      "Category": "physicochemical",
+      "Symbol": "S_0_over_R"
+    },
+    {
+      "Quantity ": "Sackur-Tetrode constant (1 K, 101.325 kPa)",
+      "Category": "physicochemical",
+      "Symbol": "S_0_over_R_101kPa"
+    },
+    {
+      "Quantity ": "second radiation constant",
+      "Category": "physicochemical",
+      "Symbol": "c_2"
+    },
+    {
+      "Quantity ": "shielded helion gyromag. ratio",
+      "Category": "helion",
+      "Symbol": "gamma_prime_h"
+    },
+    {
+      "Quantity ": "shielded helion gyromag. ratio over 2 pi",
+      "Category": "helion",
+      "Symbol": "gamma_prime_h_over_2pi"
+    },
+    {
+      "Quantity ": "shielded helion mag. mom.",
+      "Category": "helion",
+      "Symbol": "mu_prime_h"
+    },
+    {
+      "Quantity ": "shielded helion mag. mom. to Bohr magneton ratio",
+      "Category": "helion",
+      "Symbol": "mu_prime_h_over_mu_B"
+    },
+    {
+      "Quantity ": "shielded helion mag. mom. to nuclear magneton ratio",
+      "Category": "helion",
+      "Symbol": "mu_prime_h_over_mu_N"
+    },
+    {
+      "Quantity ": "shielded helion to proton mag. mom. ratio",
+      "Category": "helion",
+      "Symbol": "mu_prime_h_over_mu_p"
+    },
+    {
+      "Quantity ": "shielded helion to shielded proton mag. mom. ratio",
+      "Category": "helion",
+      "Symbol": "mu_prime_h_over_mu_prime_p"
+    },
+    {
+      "Quantity ": "shielded proton gyromag. ratio",
+      "Category": "proton",
+      "Symbol": "lambda_prime_P"
+    },
+    {
+      "Quantity ": "shielded proton gyromag. ratio over 2 pi",
+      "Category": "proton",
+      "Symbol": "lambda_prime_over_2pi"
+    },
+    {
+      "Quantity ": "shielded proton mag. mom.",
+      "Category": "proton",
+      "Symbol": "mu_prime_P"
+    },
+    {
+      "Quantity ": "shielded proton mag. mom. to Bohr magneton ratio",
+      "Category": "proton",
+      "Symbol": "mu_prime_P_over_mu_B"
+    },
+    {
+      "Quantity ": "shielded proton mag. mom. to nuclear magneton ratio",
+      "Category": "proton",
+      "Symbol": "mu_prime_P_over_mu_N"
+    },
+    {
+      "Quantity ": "speed of light in vacuum",
+      "Category": "universal",
+      "Symbol": "c"
+    },
+    {
+      "Quantity ": "standard acceleration of gravity",
+      "Category": "equivalents",
+      "Symbol": "g_n"
+    },
+    {
+      "Quantity ": "standard atmosphere",
+      "Category": "equivalents",
+      "Symbol": "atm"
+    },
+    {
+      "Quantity ": "standard-state pressure",
+      "Category": "equivalents",
+      "Symbol": "ssp"
+    },
+    {
+      "Quantity ": "Stefan-Boltzmann constant",
+      "Category": "physicochemical",
+      "Symbol": "sigma"
+    },
+    {
+      "Quantity ": "tau Compton wavelength",
+      "Category": "tau",
+      "Symbol": "lambda_C"
+    },
+    {
+      "Quantity ": "tau Compton wavelength over 2 pi",
+      "Category": "tau",
+      "Symbol": "lambda_C_over_2pi"
+    },
+    {
+      "Quantity ": "tau mass",
+      "Category": "tau",
+      "Symbol": "m_tau"
+    },
+    {
+      "Quantity ": "tau mass energy equivalent",
+      "Category": "tau",
+      "Symbol": "m_tau_c2"
+    },
+    {
+      "Quantity ": "tau mass energy equivalent in MeV",
+      "Category": "tau",
+      "Symbol": "m_tau_c2_in_MeV"
+    },
+    {
+      "Quantity ": "tau mass in u",
+      "Category": "tau",
+      "Symbol": "m_tau_in_u"
+    },
+    {
+      "Quantity ": "tau molar mass",
+      "Category": "tau",
+      "Symbol": "M_tau"
+    },
+    {
+      "Quantity ": "tau-electron mass ratio",
+      "Category": "tau",
+      "Symbol": "m_tau_over_m_e"
+    },
+    {
+      "Quantity ": "tau-muon mass ratio",
+      "Category": "tau",
+      "Symbol": "m_tau_over_m_mu"
+    },
+    {
+      "Quantity ": "tau-neutron mass ratio",
+      "Category": "tau",
+      "Symbol": "m_tau_over_m_n"
+    },
+    {
+      "Quantity ": "tau-proton mass ratio",
+      "Category": "tau",
+      "Symbol": "m_tau_over_m_P"
+    },
+    {
+      "Quantity ": "Thomson cross section",
+      "Category": "electron",
+      "Symbol": "sigma_e"
+    },
+    {
+      "Quantity ": "triton g factor",
+      "Category": "triton",
+      "Symbol": "g_t"
+    },
+    {
+      "Quantity ": "triton mag. mom.",
+      "Category": "triton",
+      "Symbol": "mu_t"
+    },
+    {
+      "Quantity ": "triton mag. mom. to Bohr magneton ratio",
+      "Category": "triton",
+      "Symbol": "mu_t_over_mu_B"
+    },
+    {
+      "Quantity ": "triton mag. mom. to nuclear magneton ratio",
+      "Category": "triton",
+      "Symbol": "mu_t_over_mu_N"
+    },
+    {
+      "Quantity ": "triton mass",
+      "Category": "triton",
+      "Symbol": "m_t"
+    },
+    {
+      "Quantity ": "triton mass energy equivalent",
+      "Category": "triton",
+      "Symbol": "m_t_c2"
+    },
+    {
+      "Quantity ": "triton mass energy equivalent in MeV",
+      "Category": "triton",
+      "Symbol": "m_t_c2_in_MeV"
+    },
+    {
+      "Quantity ": "triton mass in u",
+      "Category": "triton",
+      "Symbol": "m_t_in_u"
+    },
+    {
+      "Quantity ": "triton molar mass",
+      "Category": "triton",
+      "Symbol": "M_t"
+    },
+    {
+      "Quantity ": "triton-electron mass ratio",
+      "Category": "triton",
+      "Symbol": "m_t_over_m_e"
+    },
+    {
+      "Quantity ": "triton-proton mass ratio",
+      "Category": "triton",
+      "Symbol": "m_t_over_m_P"
+    },
+    {
+      "Quantity ": "unified atomic mass unit",
+      "Category": "equivalents",
+      "Symbol": "u"
+    },
+    {
+      "Quantity ": "von Klitzing constant",
+      "Category": "electromagnetic",
+      "Symbol": "R_K"
+    },
+    {
+      "Quantity ": "weak mixing angle",
+      "Category": "electroweak",
+      "Symbol": "sin2omega_W"
+    },
+    {
+      "Quantity ": "Wien frequency displacement law constant",
+      "Category": "physicochemical",
+      "Symbol": "b_wein"
+    },
+    {
+      "Quantity ": "Wien wavelength displacement law constant",
+      "Category": "physicochemical",
+      "Symbol": "b_wein_prime"
+    }
+  ]
+}

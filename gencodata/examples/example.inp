@@ -1,0 +1,43 @@
+# This is an input file for the CODATA header generator application.
+# It contains selected constants names from the CODATA 2014 document.
+
+# Blank lines are ignored.
+# Lines beginning with a #hash# character are ignored.
+# So are lines beginning with an octothorpe (#).
+
+# PHYSICOCHEMICAL
+
+Avogadro constant
+Boltzmann constant
+Faraday constant
+molar gas constant
+
+# UNCATEGORIZED
+
+standard atmosphere
+
+# UNIVERSAL
+
+Newtonian constant of gravitation
+Planck constant
+electric constant
+mag. constant
+
+# ATOMIC
+
+fine-structure constant
+Hartree energy
+Rydberg constant
+
+# ELECTRON
+
+electron mass
+
+# ELECTROMAGNETIC
+
+elementary charge
+
+# EQUIVALENCE
+joule-calorie relationship
+
+# end

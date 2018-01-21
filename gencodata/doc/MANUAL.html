@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.14: http://docutils.sourceforge.net/" />
+<title>MANUAL</title>
+<style type="text/css">
+
+/*
+:Author: David Goodger (goodger@python.org)
+:Id: $Id: html4css1.css 7952 2016-07-26 18:15:59Z milde $
+:Copyright: This stylesheet has been placed in the public domain.
+
+Default cascading style sheet for the HTML output of Docutils.
+
+See http://docutils.sf.net/docs/howto/html-stylesheets.html for how to
+customize this style sheet.
+*/
+
+/* used to remove borders from tables and images */
+.borderless, table.borderless td, table.borderless th {
+  border: 0 }
+
+table.borderless td, table.borderless th {
+  /* Override padding for "table.docutils td" with "! important".
+     The right padding separates the table cells. */
+  padding: 0 0.5em 0 0 ! important }
+
+.first {
+  /* Override more specific margin styles with "! important". */
+  margin-top: 0 ! important }
+
+.last, .with-subtitle {
+  margin-bottom: 0 ! important }
+
+.hidden {
+  display: none }
+
+.subscript {
+  vertical-align: sub;
+  font-size: smaller }
+
+.superscript {
+  vertical-align: super;
+  font-size: smaller }
+
+a.toc-backref {
+  text-decoration: none ;
+  color: black }
+
+blockquote.epigraph {
+  margin: 2em 5em ; }
+
+dl.docutils dd {
+  margin-bottom: 0.5em }
+
+object[type="image/svg+xml"], object[type="application/x-shockwave-flash"] {
+  overflow: hidden;
+}
+
+/* Uncomment (and remove this text!) to get bold-faced definition list terms
+dl.docutils dt {
+  font-weight: bold }
+*/
+
+div.abstract {
+  margin: 2em 5em }
+
+div.abstract p.topic-title {
+  font-weight: bold ;
+  text-align: center }
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title, .code .error {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+/* Uncomment (and remove this text!) to get reduced vertical space in
+   compound paragraphs.
+div.compound .compound-first, div.compound .compound-middle {
+  margin-bottom: 0.5em }
+
+div.compound .compound-last, div.compound .compound-middle {
+  margin-top: 0.5em }
+*/
+
+div.dedication {
+  margin: 2em 5em ;
+  text-align: center ;
+  font-style: italic }
+
+div.dedication p.topic-title {
+  font-weight: bold ;
+  font-style: normal }
+
+div.figure {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+div.footer, div.header {
+  clear: both;
+  font-size: smaller }
+
+div.line-block {
+  display: block ;
+  margin-top: 1em ;
+  margin-bottom: 1em }
+
+div.line-block div.line-block {
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  margin-left: 1.5em }
+
+div.sidebar {
+  margin: 0 0 0.5em 1em ;
+  border: medium outset ;
+  padding: 1em ;
+  background-color: #ffffee ;
+  width: 40% ;
+  float: right ;
+  clear: right }
+
+div.sidebar p.rubric {
+  font-family: sans-serif ;
+  font-size: medium }
+
+div.system-messages {
+  margin: 5em }
+
+div.system-messages h1 {
+  color: red }
+
+div.system-message {
+  border: medium outset ;
+  padding: 1em }
+
+div.system-message p.system-message-title {
+  color: red ;
+  font-weight: bold }
+
+div.topic {
+  margin: 2em }
+
+h1.section-subtitle, h2.section-subtitle, h3.section-subtitle,
+h4.section-subtitle, h5.section-subtitle, h6.section-subtitle {
+  margin-top: 0.4em }
+
+h1.title {
+  text-align: center }
+
+h2.subtitle {
+  text-align: center }
+
+hr.docutils {
+  width: 75% }
+
+img.align-left, .figure.align-left, object.align-left, table.align-left {
+  clear: left ;
+  float: left ;
+  margin-right: 1em }
+
+img.align-right, .figure.align-right, object.align-right, table.align-right {
+  clear: right ;
+  float: right ;
+  margin-left: 1em }
+
+img.align-center, .figure.align-center, object.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table.align-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-left {
+  text-align: left }
+
+.align-center {
+  clear: both ;
+  text-align: center }
+
+.align-right {
+  text-align: right }
+
+/* reset inner alignment in figures */
+div.align-right {
+  text-align: inherit }
+
+/* div.align-center * { */
+/*   text-align: left } */
+
+.align-top    {
+  vertical-align: top }
+
+.align-middle {
+  vertical-align: middle }
+
+.align-bottom {
+  vertical-align: bottom }
+
+ol.simple, ul.simple {
+  margin-bottom: 1em }
+
+ol.arabic {
+  list-style: decimal }
+
+ol.loweralpha {
+  list-style: lower-alpha }
+
+ol.upperalpha {
+  list-style: upper-alpha }
+
+ol.lowerroman {
+  list-style: lower-roman }
+
+ol.upperroman {
+  list-style: upper-roman }
+
+p.attribution {
+  text-align: right ;
+  margin-left: 50% }
+
+p.caption {
+  font-style: italic }
+
+p.credits {
+  font-style: italic ;
+  font-size: smaller }
+
+p.label {
+  white-space: nowrap }
+
+p.rubric {
+  font-weight: bold ;
+  font-size: larger ;
+  color: maroon ;
+  text-align: center }
+
+p.sidebar-title {
+  font-family: sans-serif ;
+  font-weight: bold ;
+  font-size: larger }
+
+p.sidebar-subtitle {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+p.topic-title {
+  font-weight: bold }
+
+pre.address {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  font: inherit }
+
+pre.literal-block, pre.doctest-block, pre.math, pre.code {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+pre.code .ln { color: grey; } /* line numbers */
+pre.code, code { background-color: #eeeeee }
+pre.code .comment, code .comment { color: #5C6576 }
+pre.code .keyword, code .keyword { color: #3B0D06; font-weight: bold }
+pre.code .literal.string, code .literal.string { color: #0C5404 }
+pre.code .name.builtin, code .name.builtin { color: #352B84 }
+pre.code .deleted, code .deleted { background-color: #DEB0A1}
+pre.code .inserted, code .inserted { background-color: #A3D289}
+
+span.classifier {
+  font-family: sans-serif ;
+  font-style: oblique }
+
+span.classifier-delimiter {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+span.interpreted {
+  font-family: sans-serif }
+
+span.option {
+  white-space: nowrap }
+
+span.pre {
+  white-space: pre }
+
+span.problematic {
+  color: red }
+
+span.section-subtitle {
+  /* font-size relative to parent (h1..h6 element) */
+  font-size: 80% }
+
+table.citation {
+  border-left: solid 1px gray;
+  margin-left: 1px }
+
+table.docinfo {
+  margin: 2em 4em }
+
+table.docutils {
+  margin-top: 0.5em ;
+  margin-bottom: 0.5em }
+
+table.footnote {
+  border-left: solid 1px black;
+  margin-left: 1px }
+
+table.docutils td, table.docutils th,
+table.docinfo td, table.docinfo th {
+  padding-left: 0.5em ;
+  padding-right: 0.5em ;
+  vertical-align: top }
+
+table.docutils th.field-name, table.docinfo th.docinfo-name {
+  font-weight: bold ;
+  text-align: left ;
+  white-space: nowrap ;
+  padding-left: 0 }
+
+/* "booktabs" style (no vertical lines) */
+table.docutils.booktabs {
+  border: 0px;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-collapse: collapse;
+}
+table.docutils.booktabs * {
+  border: 0px;
+}
+table.docutils.booktabs th {
+  border-bottom: thin solid;
+  text-align: left;
+}
+
+h1 tt.docutils, h2 tt.docutils, h3 tt.docutils,
+h4 tt.docutils, h5 tt.docutils, h6 tt.docutils {
+  font-size: 100% }
+
+ul.auto-toc {
+  list-style-type: none }
+
+</style>
+</head>
+<body>
+<div class="document" id="manual">
+<h1 class="title">MANUAL</h1>
+<h2 class="subtitle" id="usage">USAGE</h2>
+
+<p>TYPE:</p>
+<pre class="literal-block">
+gencodata
+</pre>
+<p>SEE:</p>
+<pre class="literal-block">
+gencodata generates CODATA physical constants
+header files in C, Fortan, or Python(default) syntax.
+
+usage: gencodata [-h] [-l] [-i INPUT] [-o OUTPUT] [-c CSV] [-j JSON]
+            [-s SYNTAX]
+            [category [category ...]]
+</pre>
+<hr class="docutils" />
+<div class="section" id="options">
+<h1>OPTIONS</h1>
+<p>TYPE:</p>
+<pre class="literal-block">
+   gencodata -h
+or
+   gencodata --help
+</pre>
+<p>SEE:</p>
+<pre class="literal-block">
+usage: gencodata    [-h] [-l] [-i INPUT] [-o OUTPUT] [-c CSV] [-j JSON]
+                    [-s SYNTAX]
+                    [category [category ...]]
+
+positional arguments:
+  category              Print constant declarations from one or more
+                        categories. Categories are: all, X-ray, alpha,
+                        physicochemical, equivalents, atomic units,
+                        electromagnetic, atomic, universal, electron, uncat,
+                        deuteron, electroweak, helion, muon, natural, neutron,
+                        proton, tau, triton
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -l, --list            list constants, either all or within a category.
+                        Overrides file output.
+  -i INPUT, --input INPUT
+                        print constants from list in file
+  -o OUTPUT, --output OUTPUT
+                        write results to an output file
+  -c CSV, --csv CSV     write results to a CSV file
+  -j JSON, --json JSON  write results to a JSON file
+  -s SYNTAX, --syntax SYNTAX
+                        Select C,C99,Fortran,F77,F90, or Python (default)
+                        output, case-insensitive
+</pre>
+</div>
+<hr class="docutils" />
+<div class="section" id="which-constant-category">
+<h1>WHICH CONSTANT CATEGORY?</h1>
+<p>The 337 CODATA 2014 constants and equivalences are grouped by category and may
+be listed by name within a category.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="39%" />
+<col width="12%" />
+<col width="37%" />
+<col width="12%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">Category</th>
+<th class="head">Count</th>
+<th class="head">Category</th>
+<th class="head">Count</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>alpha</td>
+<td>7</td>
+<td>natural</td>
+<td>10</td>
+</tr>
+<tr><td>atomic</td>
+<td>9</td>
+<td>neutron</td>
+<td>24</td>
+</tr>
+<tr><td><strong>atomic units</strong></td>
+<td>22</td>
+<td>physicochemical</td>
+<td>22</td>
+</tr>
+<tr><td>deuteron</td>
+<td>15</td>
+<td>proton</td>
+<td>26</td>
+</tr>
+<tr><td>electromagnetic</td>
+<td>18</td>
+<td>tau</td>
+<td>11</td>
+</tr>
+<tr><td>electron</td>
+<td>28</td>
+<td>triton</td>
+<td>11</td>
+</tr>
+<tr><td>electroweak</td>
+<td>2</td>
+<td>uncat</td>
+<td>15</td>
+</tr>
+<tr><td>equivalents</td>
+<td>58</td>
+<td>universal</td>
+<td>20</td>
+</tr>
+<tr><td>helion</td>
+<td>18</td>
+<td>X-ray</td>
+<td>4</td>
+</tr>
+<tr><td>muon</td>
+<td>17</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>The 'uncat' category is transitional.</p>
+<p>To list only names of the atomic constants, type:</p>
+<pre class="literal-block">
+  gencodata X-ray -l
+or
+  gencodata X-ray --list
+</pre>
+<p>with the result:</p>
+<pre class="literal-block">
+Angstrom star
+Cu x unit
+Mo x unit
+{220} lattice spacing of silicon
+</pre>
+<p>Note that these are fully qualified CODATA names and not the symbols by
+which they are defined and used.  The python output for &quot;Angstrom star&quot; is:</p>
+<pre class="literal-block">
+# Angstrom star                        (X-ray)
+W_K_alpha = 1.00001495e-10             # +/-0.00000090e-10 in units 'm'
+</pre>
+<p>...where W_K_alpha refers to the tungsten K-alpha line wavelength,
+once so ubiquitous in crystallography that it has its own name.
+The underscores may seem to be overused but it is hoped they may
+ease the chore of referencing these constants in LaTex or MathML markup languages.</p>
+<p>To list all constant names:</p>
+<pre class="literal-block">
+   gencodata all -l
+or
+   gencodata -l all
+or
+   gencodata --list all
+</pre>
+<p>The results of the above command are omitted for obvious eye-glazing reasons.</p>
+<p>All other output flags are ignored when the '--list' flag appears in the command line.
+This command:</p>
+<pre class="literal-block">
+gencodata atomic -l -s C99 -o outfile.h
+</pre>
+<p>is effectively truncated to:</p>
+<pre class="literal-block">
+gencodata atomic -l
+</pre>
+<p>NOTE -- The <strong>&quot;atomic units&quot;</strong> category is distinct from
+<strong>&quot;atomic&quot;</strong> and must be quoted in the command string:</p>
+<pre class="literal-block">
+gencodata &quot;atomic units&quot;
+</pre>
+</div>
+<hr class="docutils" />
+<div class="section" id="which-constants">
+<h1>WHICH CONSTANTS?</h1>
+<p>To print the 9 atomic constant definitions at the console in Python syntax
+TYPE:</p>
+<pre class="literal-block">
+gencodata atomic
+</pre>
+<p>Several categories may be specified:</p>
+<pre class="literal-block">
+gencodata atomic universal physicochemical
+</pre>
+</div>
+<hr class="docutils" />
+<div class="section" id="using-selected-constants">
+<h1>USING SELECTED CONSTANTS</h1>
+<p>The constants we want usually reside in different categories.  You can
+specify single CODATA constants in a text file, one name to a line.</p>
+<p>Constant name searches are case insensitive -- <cite>pLaNcK CoNsTaNt</cite> is
+treated the same as <cite>Planck constant</cite>.  Lines that begin with a # hash are optional and
+ignored.  Same goes for octothorpes.  An example file follows:</p>
+<pre class="literal-block">
+# ----------------file &quot;a_few.txt&quot; begins ----------------
+Speed of light in vacuum
+Avogadro constant
+#
+Planck constant
+Boltzmann constant
+#
+Hartree energy
+molar gas constant
+Joule-calorie relationship
+# ----------------file &quot;a_few.txt&quot; ends ------------------
+</pre>
+<p>Read in the file, print the output at console:</p>
+<pre class="literal-block">
+   gencodata -i a_few.txt
+or
+   gencodata --input a_few.txt
+</pre>
+<p>The output should contain:</p>
+<pre class="literal-block">
+...
+# Avogadro constant                    (physicochemical)
+N_A = 6.022140857e23                   # +/-0.000000074e23 in units 'mol^{-1}'
+
+# Boltzmann constant                   (physicochemical)
+k_B = 1.38064852e-23                   # +/-0.00000079e-23 in units 'J K^{-1}'
+
+# Hartree energy                       (atomic)
+E_h = 4.359744650e-18                  # +/-0.000000054e-18 in units 'J'
+...
+</pre>
+<p>The definitions are alphabetized by CODATA name to simplify visual searching
+through source code.</p>
+<p>To write results as a Python (default) file:</p>
+<pre class="literal-block">
+   gencodata -i a_few.txt -o a_few.py
+or
+   gencodata --input a_few.txt --output a_few.py
+</pre>
+</div>
+<hr class="docutils" />
+<div class="section" id="language-output-syntax">
+<h1>LANGUAGE OUTPUT SYNTAX</h1>
+<p>You may select from several syntax formats with these command line
+arguments for the -s, or --syntax flags:</p>
+<pre class="literal-block">
+C         - pre- C99, using /*,*/ block commenting
+C99       - uses C++ '//' line commenting where reasonable
+
+Fortran   - Fortran 77 'C' commenting and parameter syntax
+            64-bit REAL is of type &quot;double precision&quot;
+F, F77    - as above
+
+Fortran90,F90 -
+          - Fortran 90 '!' commenting and parameter syntax
+            64-bit REAL is of type &quot;real*8&quot;
+
+python    - default output syntax
+</pre>
+<p>These are case-insensitive,i.e., 'c99' is the same as 'C99'.</p>
+<p>To write the X-ray constants in Fortran 77 syntax to console, type:</p>
+<pre class="literal-block">
+gencodata X-ray -s F77
+</pre>
+<p>Constant declarations are presented consistently:</p>
+<p><strong>PYTHON</strong>:</p>
+<pre class="literal-block">
+# Avogadro constant                 (physicochemical)
+N_A = 6.022140857e23                # +/- 0.000000074e23 in units: 'mol^{-1}'
+</pre>
+<p><strong>FORTRAN 77</strong>:</p>
+<pre class="literal-block">
+C  Avogadro constant                (physicochemical)
+C  +/- 0.000000074e23      in units 'mol^{-1}'
+      double precision N_A
+      parameter( N_A = 6.022140857d23)
+</pre>
+<p><strong>C99</strong>:</p>
+<pre class="literal-block">
+// Avogadro constant                (physicochemical)
+#define N_A 6.022140857e23          // +/-0.000000074e23 units 'mol^{-1}'
+</pre>
+</div>
+<hr class="docutils" />
+<div class="section" id="write-output-to-file">
+<h1>WRITE OUTPUT TO  FILE</h1>
+<p>TYPE:</p>
+<pre class="literal-block">
+   gencodata atomic -o fileName.py
+or
+   gencodata atomic --output fileName.py
+</pre>
+<p>To write the X-ray constants in Fortran 77 syntax to a file, type:</p>
+<pre class="literal-block">
+gencodata X-ray -s F77 -o xrayconst.F
+</pre>
+<hr class="docutils" />
+<p>CSV and JSON file output is optional using flags -c,-j (--csv,--json).</p>
+<p><strong>Writing CSV files</strong></p>
+<p>Sometimes, you need to examine the entire CODATA 2014 corpus, preferably as
+a spreadsheet.  You can write all CODATA 2014 constants and their properties to
+a CSV file for import into a spreedsheet application.</p>
+<p>TYPE:</p>
+<pre class="literal-block">
+   gencodata all -c codata2014.csv
+or
+   gencodata all --csv codata2014.csv
+</pre>
+<p>The CSV header is:</p>
+<pre class="literal-block">
+&quot;Quantity &quot;,&quot;Category&quot;,&quot;Symbol&quot;,&quot;Uncertainty&quot;,&quot;Unit&quot;,&quot;Value&quot;
+</pre>
+<p>Data is formatted as:</p>
+<pre class="literal-block">
+&quot;Planck constant&quot;,&quot;universal&quot;,&quot;h&quot;,&quot;0.000000081e-34&quot;,&quot;J s&quot;,&quot;6.626070040e-34&quot;
+</pre>
+<p>All CSV data fields are quoted 7-bit ASCII strings in order to ensure an
+accurate representation of the published constant values. Accuracy of
+numerical text conversion to IEEE 754 binary floating point formats then
+depends on the user's software toolchain.</p>
+<p><strong>Writing JSON files</strong></p>
+<p>The JSON file output can usually be imported directly into Python source code
+for immediate use. <strong>Gencodata</strong>'s JSON output format is an unordered dictionary:</p>
+<pre class="literal-block">
+&quot;planck constant&quot;: {
+  &quot;Category&quot;:       &quot;universal&quot;,
+  &quot;Symbol&quot;:         &quot;h&quot;,
+  &quot;Uncertainty&quot;:    &quot;0.000000081e-34&quot;,
+  &quot;Quantity &quot;:      &quot;Planck constant&quot;,
+  &quot;Value&quot;:          &quot;6.626070040e-34&quot;,
+  &quot;Unit&quot;:           &quot;J s&quot;
+}
+</pre>
+<p>To print the atomic category as a JSON file, type:</p>
+<pre class="literal-block">
+  gencodata atomic --json atomic.json
+or
+  gencodata atomic -j atomic.json
+</pre>
+<hr class="docutils" />
+<p>Copyright 2017, Daniel R. Haney</p>
+</div>
+</div>
+</body>
+</html>

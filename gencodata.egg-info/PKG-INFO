@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: gencodata
+Version: 0.2
+Summary: CODATA physical constants file generator
+Home-page: localhost
+Author: Proontny Platterpoont
+Author-email: pp@urology.net
+License: BSD 2-Clause
+Description-Content-Type: UNKNOWN
+Description: 
+        
+        
+Keywords: CODATA physical constants file generator
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy

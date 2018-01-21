@@ -1,0 +1,31 @@
+#!/usr/bin/env python
+
+"""
+---------
+gencodata::
+---------
+
+    prints CODATA 2014 constants as C, Python or Fortran definitions.
+
+    creation: 11/11/2017
+
+    author: drh
+"""
+
+import sys
+from gencodata import *
+
+#______________________________________________________
+
+def main(argv=None):
+
+    parsed = cliargs.argvParse()
+
+    outputs.handleArgs(parsed)
+
+    sys.exit(0)
+
+
+if __name__ == "__main__":
+    main()
+
